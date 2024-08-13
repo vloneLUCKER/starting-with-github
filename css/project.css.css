@@ -1,0 +1,46 @@
+/* main color #000000 */
+/* second color rgb(0,0,0,0.8) */
+/* white #ffffff */
+/* accent #18A0FB */
+/* second background color #F5F5F5 */
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+header {
+  display: flex;
+  align-items: center;
+}
+
+.nav-list {
+  display: flex;
+}
+
+.logo {
+  height: 24px;
+  width: 115px;
+}
+
+.nav-item {
+  display: block;
+  padding-right: 40px;
+}
+
+.nav-item:last-child {
+  margin-right: 332px;
+}
+
+.contacts {
+  display: flex;
+}
+
+.contacts > p:not(:last-child) {
+  margin-right: 40px;
+}
